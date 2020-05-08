@@ -12,8 +12,32 @@ Please select a branch and then a programming language, i recommend python, its 
 ## Did you edit the files after creating them with Blockly?
 No. The files in this repository is 100% the raw files from Blockly. You can recreate the files easily. Screenshot below (Blockly is in Development, so the final result CAN change)
 ## Is there a lowercaser?
-No, because i dont want to flood my Github with thousands of useless Tools...
+No, because i dont want to flood my Github with thousands of useless Tools... If you really need the Tool:
+Python:
 
+```python
+usrinput = None
+
+def text_prompt(msg):
+  try:
+    return raw_input(msg)
+  except NameError:
+    return input(msg)
+
+
+usrinput = text_prompt('Please choose your Word you want to be displayed in UPPERCASE')
+print(usrinput.lower())
+```
+JavaScript:
+```javascript
+var usrinput;
+
+
+usrinput = window.prompt('Please choose your Word you want to be displayed in UPPERCASE');
+window.alert(usrinput.toLowerCase());
+```
+
+## Screenshots:
 German:
 [![Blockly](https://i.imgur.com/d8zq7g7.png "BlocklyDE")](https://imgur.com/a/tOoDyqe "Blockly")
 English:
