@@ -10,7 +10,7 @@ https://github.com/google/blockly
 ## Where is the code?
 Please select a branch and then a programming language, i recommend python, its the most efficient one.
 ## Did you edit the files after creating them with Blockly?
-No. The files in this repository is 100% the raw files from Blockly. You can recreate the files easily. Screenshot below
+No. The files in this repository is 100% the raw files from Blockly. You can recreate the files easily. Screenshot below (Blockly is in Development, so the final result CAN change)
 
 German:
 [![Blockly](https://i.imgur.com/d8zq7g7.png "BlocklyDE")](https://imgur.com/a/tOoDyqe "Blockly")
