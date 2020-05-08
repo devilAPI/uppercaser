@@ -1,0 +1,39 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="PPi|@2nOvLK{#T%1+R-k">usrinput</variable>
+  </variables>
+  <block type="variables_set" id="{cq=9dU7*Z6l+gYgc7kl" x="37" y="-12">
+    <field name="VAR" id="PPi|@2nOvLK{#T%1+R-k">usrinput</field>
+    <value name="VALUE">
+      <block type="text_prompt_ext" id="T`{Dvz/05x.rf|hM*eM%">
+        <mutation type="TEXT"></mutation>
+        <field name="TYPE">TEXT</field>
+        <value name="TEXT">
+          <shadow type="text" id="VUFy*X@|v.2+DIOy,EzF">
+            <field name="TEXT">Please choose your Word you want to be displayed in UPPERCASE</field>
+          </shadow>
+        </value>
+      </block>
+    </value>
+    <next>
+      <block type="text_print" id="CI,rF{%z.s3/u7`#22|K">
+        <value name="TEXT">
+          <shadow type="text" id="[R)1T^}7Jkv.KCWi.mna">
+            <field name="TEXT">abc</field>
+          </shadow>
+          <block type="text_changeCase" id="I/$*bx3:;OaIeR^|6JBT">
+            <field name="CASE">UPPERCASE</field>
+            <value name="TEXT">
+              <shadow type="text" id="w|2xsDF6=rP@L:mvR,FZ">
+                <field name="TEXT">abc</field>
+              </shadow>
+              <block type="variables_get" id="a,(9R$d:.UC7C3h+`SJd">
+                <field name="VAR" id="PPi|@2nOvLK{#T%1+R-k">usrinput</field>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+</xml>
